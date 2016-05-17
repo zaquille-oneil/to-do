@@ -1,0 +1,67 @@
+.john-baek {
+	font: 20px Arial;
+	color: #00fbb5;
+	background-color: rgba(0,0,0,0.1);
+	border: none;
+	margin-bottom: 20px;
+}
+
+.john-baek:hover {
+	color:white;
+	cursor: pointer;
+}
+
+#shuffl-button,#tog-button {
+	font: 20px Arial;
+	color: #f08080;
+	background-color: rgba(0,0,0,0.1);
+	border: none;
+	margin-bottom: 20px;
+}
+
+#shuffl-button:hover,#tog-button:hover{
+	color:white;
+	cursor: pointer;
+}
+
+.time-stamp {
+	font: 16px Consolas;
+	color: white;
+	border: none;
+	text-transform: uppercase;
+}
+
+div#noteform {
+	display: none;
+}
+
+input,textarea {
+	font: 14px Consolas;
+	color: white;
+	background-color: rgba(0,0,0,0.1);
+}
+
+#notebody {
+
+	height: 100px;
+}
+#notewall{
+	font: 14px Consolas;
+	color: #f08080;
+	background-color: rgba(0,0,0,0.4);
+	width: 800px;
+	margin: 0 auto;
+}
+
+body {
+	background-image: url('http://i.imgur.com/bDnPcxV.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+* {
+	font: 16px Consonlas;
+	color: #FFFFA2;
+}
+
+/*hierarchy: id, class, element*/

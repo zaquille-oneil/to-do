@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- style sheets go here -->
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+	<div class="music-filter">
+		<button id="tog-button">toggle music</button>
+	</div>
+	<div class="shuffler">
+		<button id="shuffl-button">shuffle bg</button>
+	</div>
+	<button class="john-baek" id="newnotebutton">note</button>
+<!-- main content, html content -->
+	<embed src="audio.mp3" autostart="true" loop="true" width="2" height="0"></embed>
+	<noembed>
+	  	<bgsound src="audio.mp3" loop="infinite" volume="25">
+	</noembed> 
+	<div id="noteform">
+		<form> 
+			<input type="text" id="notetitle" placeholder="title"> 
+			<BR>
+			<textarea id="notebody" placeholder="body"></textarea> 
+			<BR>
+			<button type="submit" class="john-baek">submit</button>
+		</form>
+	</div>
+	<div id="notewall">
+		
+	</div>
+
+<!-- dependencies go at the end of body: jquery, app.js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="./app.js"></script>
+</body>
+</html>
+
+<!-- id list: noteform, notewall, notebody, newnotebutton -->
+<!-- class list: john-baek -->
